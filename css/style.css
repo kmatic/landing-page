@@ -69,3 +69,38 @@ button {
     font-family: Roboto, sans-serif;
     border: none;
 }
+
+.info-container {
+    padding: 42px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 42px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-text {
+    font-size: 18px;
+    color: #6c6e72;
+    width: 150px;
+    text-align: center;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 6px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+}
