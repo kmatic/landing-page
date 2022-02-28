@@ -3,6 +3,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .header {
@@ -64,14 +67,14 @@ ul {
 button {
     background-color: #3882F6;
     color: white;
-    padding: 4px 20px;
+    padding: 6px 24px;
     border-radius: 6px;
     font-family: Roboto, sans-serif;
     border: none;
 }
 
 .info-container {
-    padding: 42px;
+    padding: 42px 160px;
 }
 
 .info-header {
@@ -121,4 +124,29 @@ button {
     font-weight: 800;
     font-size: 20px;
     text-align: right;
+}
+
+.signup {
+    background-color: #3882F6;
+    margin: 75px 160px;
+    padding: 42px 84px;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-main {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.signup-secondary {
+    color: #e5e7ebce;
+}
+
+.signup button {
+    border-color: white;
+    border-style: solid;
 }
