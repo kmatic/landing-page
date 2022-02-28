@@ -7,7 +7,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 0px 160px 75px;
+    padding: 0px 150px 75px;
 }
 
 .nav {
@@ -83,7 +83,8 @@ button {
 
 .info {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 48px;
     align-items: center;
 }
 
