@@ -3,9 +3,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-
 }
 
 .header {
@@ -117,7 +114,7 @@ button {
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
 }
 
 .quote-author {
@@ -149,4 +146,11 @@ button {
 .signup button {
     border-color: white;
     border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7ebce;
+    text-align: center;
+    padding: 32px;
 }
