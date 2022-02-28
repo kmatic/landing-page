@@ -92,6 +92,7 @@ button {
     color: #6c6e72;
     width: 150px;
     text-align: center;
+    padding-bottom: 24px;
 }
 
 .illustration {
@@ -103,4 +104,21 @@ button {
     border-color: #3882F6;
     border-style: solid;
     border-width: 4px;
+}
+
+.quote {
+    background-color: #E5E7Eb;
+    padding: 100px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.quote-author {
+    font-weight: 800;
+    font-size: 20px;
+    text-align: right;
 }
